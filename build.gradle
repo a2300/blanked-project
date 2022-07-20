@@ -20,6 +20,15 @@ dependencies {
     // Starter for validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
+    // Стартер jdbc
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+    // Библиотеки Liquibase
+    implementation 'org.liquibase:liquibase-core:4.9.1'
+
+    // Библиотеки H2
+    implementation 'com.h2database:h2:2.1.212'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
