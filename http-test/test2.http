@@ -1,0 +1,7 @@
+### Запрос на создание пользователя
+POST http://localhost:8080/users
+Content-type: application/json
+
+{
+  "name": "Joh"
+}
